@@ -77,11 +77,11 @@ for (int i = 0; i < accountsLength; i++)
 
 ---
 
-Next, the **MaximumWealth** function from **Solution** class is called. It takes a 2D array (_int[][] array_) and returns an int (_int_). The returned int is stored into a new int named **sum**. The returned int is then printed out to the console.
+Next, the **MaximumWealth** function from **Solution** class is called. It takes a 2D array (_int[][] array_) and returns an int (_int maxAccountSum_). The returned int is stored into a new int named **maxAccountSum**. The returned int is then printed out to the console.
 
 ```cs
-int sum = Solution.MaximumWealth(accounts);
-Console.WriteLine(sum);
+int maxAccountSum = Solution.MaximumWealth(accounts);
+Console.WriteLine(maxAccountSum);
 ```
 
 At the end of the **Program** class there is next structure:
