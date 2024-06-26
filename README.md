@@ -36,9 +36,9 @@ int[][] accounts =
 Currently, the **nums** numeric (int) 2D array is initialized by using next structure:
 
 - Console Write -> where it displays that the number of accounts must be inputted [1. dimension].
-- int input1 = int Parse Console ReadLine -> where user input is stored into a variable.
+- int input1 = int Parse Console ReadLine -> where user input is stored into a numeric input (int).
 - Console Write -> where it displays that the number of values must be inputted [2. dimension].
-- int input2 = int Parse Console ReadLine -> where user input is stored into a variable.
+- int input2 = int Parse Console ReadLine -> where user input is stored into a numeric input (int).
 - int[][] array = new int[input1][] -> where new 2D array is initialized and instantiated with the length specified in input1.
 - for loop -> which iterates from _0 to input1_.
 - array[i] = new int[input2] -> where new 1D array is initialized and instantiated with the length specified in input1.
@@ -131,7 +131,7 @@ for (int j = 0; j < accounts[i].Length; j++)
 {
 ```
 
-Every value inside the array[i][j] is being sumed into the currentAccountSum variable.
+Every value inside the array[i][j] is being sumed into the currentAccountSum numeric input (int).
 
 ```cs
 currentAccountSum += accounts[i][j];
