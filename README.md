@@ -72,7 +72,8 @@ for (int i = 0; i < accountsLength; i++)
 - When initializing each of the array submembers first before filling it with values, array Length needs to be specified and array needs to be specifically instantiated (new int[input2]).<br><br>
 - Notice that you cannot at the start instantiate the 2D array by providing both Length values (new int[input1][input2]). You need to instantiate array submembers one at a time, after instantiating the 2D array itself.<br><br>
 - Console.ReadLine always takes user input in a text format (string) . To convert the text input (string) into a numeric input (int) -> int Parse needs to be used.<br><br>
-- 2D array submembers can be accessed by using array[i]. 2D array values can be accessed by using array[i][j].<br>
+- 2D array submembers can be accessed by using array[i]. 2D array values can be accessed by using array[i][j].<br><br>
+- Notice that you could have 1D arrays with different number of values stored inside.<br>
 </details>
 
 ---
@@ -157,5 +158,8 @@ return maxAccountSum;
 
 
 ## RUNNING THE CODE - RESULT
+
+![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/9aacc160-8404-4f38-9180-bbcae08f11b1) ![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/87058a1b-d431-41ed-b5ee-5456491a5d22) ![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/d3e1e8b6-facd-45ed-97e9-81fa1dcd1ad7)
+
 
 
