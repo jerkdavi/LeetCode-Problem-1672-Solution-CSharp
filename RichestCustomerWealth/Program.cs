@@ -39,8 +39,8 @@ namespace RichestCustomerWealth
                 }
             }
 
-            int sum = Solution.MaximumWealth(accounts);
-            Console.WriteLine(sum);
+            int maxAccountSum = Solution.MaximumWealth(accounts);
+            Console.WriteLine(maxAccountSum);
 
             Console.WriteLine("Done processing.");
             Console.ReadLine();
