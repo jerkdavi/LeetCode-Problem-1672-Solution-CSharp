@@ -8,20 +8,20 @@ namespace RichestCustomerWealth
     {
         public static int MaximumWealth(int[][] accounts)
         {
-            int sum = 0;
+            int maxAccountSum = 0;
             for (int i = 0; i < accounts.Length; i++)
             {
-                int tempSum = 0;
+                int currentAccountSum = 0;
                 for (int j = 0; j < accounts[i].Length; j++)
                 {
-                    tempSum += accounts[i][j];
+                    currentAccountSum += accounts[i][j];
                 }
-                if (tempSum > sum)
+                if (currentAccountSum > maxAccountSum)
                 {
-                    sum = tempSum;
+                    maxAccountSum = currentAccountSum;
                 }
             }
-            return sum;
+            return maxAccountSum;
         }
     }
 }
