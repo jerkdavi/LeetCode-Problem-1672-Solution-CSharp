@@ -105,7 +105,7 @@ public class Solution
     {
 ```
 
-Firstly, the **maxAccountSum** numeric input (int) is initialized by using basic string initialization. It is set to 0. This numeric input (int) will be used to store the biggest account sum into and return it at the end of the function.
+Firstly, the **maxAccountSum** numeric input (int) is initialized by using basic int initialization. It is set to 0. This numeric input (int) will be used to store the biggest account sum into and return it at the end of the function.
 
 ```cs
 int maxAccountSum = 0;
@@ -118,7 +118,7 @@ for (int i = 0; i < accounts.Length; i++)
 {
 ```
 
-The **currentAccountSum** numeric input (int) is initialized by using basic int initialization. It is set to 0. This numeric input (int) will be used to store current account sum into and for checking if it is greater then the maxAccountSum.
+The **currentAccountSum** numeric input (int) is initialized by using basic int initialization. It is set to 0. This numeric input (int) will be used to store current account sum into and to check if it is greater then the maxAccountSum.
 
 ```cs
 int currentAccountSum = 0;
@@ -131,7 +131,7 @@ for (int j = 0; j < accounts[i].Length; j++)
 {
 ```
 
-Every value inside the array[i][j] is being sumed into the currentAccountSum numeric input (int).
+Every value inside the array[i][j] is being summed into the currentAccountSum numeric input (int).
 
 ```cs
 currentAccountSum += accounts[i][j];
