@@ -155,7 +155,9 @@ return maxAccountSum;
 
 ## POTENTIAL MISTAKES (I HAVE MADE)
 
-X
+None that I am aware of.
+
+Any advice regarding making the code _MORE TIME AND SPACE EFFICIENT_ is **MORE THAN WELCOME**.
 
 ## RUNNING THE CODE - RESULT
 
