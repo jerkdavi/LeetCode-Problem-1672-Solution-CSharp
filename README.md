@@ -88,7 +88,16 @@ Console.WriteLine(maxAccountSum);
 At the end of the **Program** class there is next structure:
 
 - Console WriteLine -> where it displays that the code is done processing.
-- Console ReadLine -> where it waits for user input. Why does it wait for user input? To stop the code from automatically completing and exiting and us not being able to check the result of the code.
+- Console ReadLine -> where it waits for user input.
+
+---
+
+<details>
+<summary>WHY DOES CONSOLE READLINE WAIT FOR USER INPUT?</summary><br>
+To stop the code from automatically completing and exiting and us not being able to check the result of the code.<br>
+</details>
+
+---
 
 ```cs
 Console.WriteLine("Done processing");
@@ -120,6 +129,15 @@ for (int i = 0; i < accounts.Length; i++)
 ```
 
 The **currentAccountSum** numeric input (int) is initialized by using basic int initialization. It is set to 0. This numeric input (int) will be used to store current account sum into and to check if it is greater then the maxAccountSum.
+
+---
+
+<details>
+<summary>WHY IS IT INITIALIZED HERE AND NOT BEFORE THE FOR LOOP?</summary><br>
+Because it needs to be set to 0 at every for loop iteration to correctly sum all of current account values.<br>
+</details>
+
+---
 
 ```cs
 int currentAccountSum = 0;
