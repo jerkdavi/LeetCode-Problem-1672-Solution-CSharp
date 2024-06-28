@@ -35,9 +35,9 @@ int[][] accounts =
 
 Currently, the **nums** numeric (int) 2D array is initialized by using next structure:
 
-- Console Write -> where it displays that the number of accounts must be inputted [1. dimension].
+- Console Write -> where it displays that the number of accounts needs to be inputted [1. dimension].
 - int input1 = int Parse Console ReadLine -> where user input is stored into a numeric input (int).
-- Console Write -> where it displays that the number of values must be inputted [2. dimension].
+- Console Write -> where it displays that the number of values needs to be inputted [2. dimension].
 - int input2 = int Parse Console ReadLine -> where user input is stored into a numeric input (int).
 - int[][] array = new int[input1][] -> where new 2D array is initialized and instantiated with the length specified in input1.
 - for loop -> which iterates from _0 to input1_.
