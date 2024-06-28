@@ -179,7 +179,8 @@ Any advice regarding making the code _MORE TIME AND SPACE EFFICIENT_ is **MORE T
 
 ## RUNNING THE CODE - RESULT
 
-![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/9aacc160-8404-4f38-9180-bbcae08f11b1) ![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/87058a1b-d431-41ed-b5ee-5456491a5d22) ![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/d3e1e8b6-facd-45ed-97e9-81fa1dcd1ad7)
+![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/9aacc160-8404-4f38-9180-bbcae08f11b1) ![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/87058a1b-d431-41ed-b5ee-5456491a5d22) ![image](https://github.com/jerkdavi/LeetCode-Problem-1672-Solution-CSharp/assets/75536158/69c92868-437b-49f5-ac29-cb2cace0466a)
+
 
 
 
